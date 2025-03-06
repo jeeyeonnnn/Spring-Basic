@@ -27,6 +27,9 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 
+	// DL을 위한 Provider 설정
+	implementation 'jakarta.inject:jakarta.inject-api:2.0.1'
+
 	// Lombok 설정
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
