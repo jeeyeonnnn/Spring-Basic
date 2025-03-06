@@ -27,6 +27,9 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 
+	// Web 라이브러리 추가 (Request Scope 테스트용도)
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
 	// DL을 위한 Provider 설정
 	implementation 'jakarta.inject:jakarta.inject-api:2.0.1'
 
